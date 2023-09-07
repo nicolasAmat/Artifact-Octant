@@ -161,7 +161,7 @@ Results are displayed on the standard output as they are computed. It is still
 possible to analyze the raw outputs in the `Outputs/` directory, and the .csv
 tables in the `CSV/` directory.
 
-###Note
+### Note
 
 By default, the `run_experiments.sh` script computes projections for all the
 queries of instances listed in `Lists/picked_instances` (there are 16 queries
