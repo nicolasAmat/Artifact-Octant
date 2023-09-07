@@ -114,6 +114,13 @@ The `Artifact/` directory is organized as follows:
 
 ## 1 - Installation
 
+Download and extract the artifact:
+```
+$ wget https://github.com/nicolasAmat/Artifact-Octant/releases/download/Artifact-Octant/Artifact-Octant.tar.gz
+$ tar xvf Artifact-Octant.tar.gz
+$ cd Artifact-Octant
+```
+
 Build docker image:
 
 ```
