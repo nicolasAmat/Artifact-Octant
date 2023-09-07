@@ -30,9 +30,9 @@ Model Checking Contest.
 
 ## Tool Availability
 
-Octant and SMPT are open-source (under GPLv3 license) tools respectively
-available on GitHub at https://github.com/nicolasAmat/Octant and
-https://github.com/nicolasAmat/SMPT.
+[Octant](https://github.com/nicolasAmat/Octant) and [SMPT](https://github.com/nicolasAmat/SMPT)
+are open-source (under GPLv3 license) tools.
+.
 
 External tools used in this artifact are all freely available:
 - ITS-Tools and Tapaal: disk images with agreement of the authors from the [Model
