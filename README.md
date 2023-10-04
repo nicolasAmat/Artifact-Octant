@@ -11,8 +11,8 @@ nicolas.amat@laas.fr
 ## Abstract
 
 This artifact contains the tools and scripts for reproducing the experiments
-found in our paper "Project and Conquer: Fast Quantifier Elimination for
-Checking Petri Nets Reachability".
+from our paper "Project and Conquer: Fast Quantifier Elimination for Checking
+Petri Nets Reachability".  
 
 Our main tool, called Octant, can be used as a pre-processor for accelerating
 the model-checking of generalized reachability properties on Petri nets. Given
@@ -154,6 +154,19 @@ Run the docker image:
 $ docker run -it octant:latest
 ```
 
+### Note
+
+If the build failed, please retry using the `--no-cache` option:
+
+```
+$ docker build -t octant:latest . --no-cache
+```
+
+or
+
+```
+$ docker buildx build --platform linux/amd64 -t octant:latest --load . --no-cache
+```
 
 ## 2 - Reproduce Experiments
 
@@ -165,8 +178,8 @@ $ ./run_experiments.sh
 ### Data analysis
 
 Results are displayed on the standard output as they are computed. It is still
-possible to analyze the raw outputs in the `Outputs/` directory, and the .csv
-tables in the `CSV/` directory.
+possible to analyze the raw outputs (using the `cat` command for example) in the
+`Outputs/` directory, and the .csv tables in the `CSV/` directory.
 
 ### Note
 
